@@ -26,7 +26,7 @@ int pre[TOTAL + 1];
 //答案
 int ans = 0;
 //邻接矩阵图
-int G[TOTAL][TOTAL];
+int G[TOTAL + 1][TOTAL + 1];
 //边集
 vector<Edge> edge;
 //最终边
@@ -124,13 +124,14 @@ void init() {
 
 void solve() {
 	if (Kruskal()) {
-		cout << ans << endl;
-		for (auto i : draw) {
-			cout << i.u << "---" << i.v << endl;
-		}
+		NULL;
 	}
 	else {
 		cout << "ga" << endl;
+	}
+	cout << ans << endl;
+	for (auto i : draw) {
+		cout << i.u << "---" << i.v << endl;
 	}
 }
 

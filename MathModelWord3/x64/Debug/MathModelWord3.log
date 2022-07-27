@@ -1,0 +1,5 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  main.cpp
+D:\ProgramData\Microsoft\VisualStudio\solutions\MathModelWord3\MathModelWord3\main.cpp(84,27): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\ProgramData\Microsoft\VisualStudio\solutions\MathModelWord3\MathModelWord3\main.cpp(138,2): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MathModelWord3.vcxproj -> D:\ProgramData\Microsoft\VisualStudio\solutions\MathModelWord3\x64\Debug\MathModelWork3.exe
